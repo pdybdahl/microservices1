@@ -17,6 +17,7 @@ public class HolaRestController {
 
 		try {
 			hostname = InetAddress.getLocalHost().getHostAddress();
+			System.out.println(hostname);
 		} catch (UnknownHostException e) {
 			hostname = "Unknown host";
 		}
